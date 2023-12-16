@@ -102,6 +102,27 @@
     .banner_descrip {
         text-align: center;
     }
+
+    /*======= Adventure section======= */
+    .adventure_container {
+        flex-direction: column-reverse;
+        padding: 50px 0;
+    }
+    .adventure_content_header,.adventure_content_Sub_header,.adventure_content_list{
+        text-align: center;
+    }
+    .adventure_content button {
+        margin: 0 auto;
+    }
+    .ellipse_adventure_circle_big{
+        top: 0;
+        right: 50%;
+    }
+    .ellipse_adventure{
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 /* Small devices (portrait tablets and large phones,landscape tablets 600px and up 1000px) */

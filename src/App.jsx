@@ -2,6 +2,7 @@ import './App.css'
 import Banner from './component/header/Banner'
 import './component/header/header.css'
 import Nav from './component/header/Nav'
+import Adventure from './component/sections/Adventure/Adventure'
 
 function App() {
 
@@ -15,6 +16,9 @@ function App() {
         <div className='container'>
           <Banner />
         </div>
+      </div>
+      <div className='container'>
+        <Adventure/>
       </div>
     </>
   )

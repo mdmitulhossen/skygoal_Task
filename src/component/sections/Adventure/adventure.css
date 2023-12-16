@@ -1,0 +1,78 @@
+.adventure_container{
+    margin-top: 50px;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    position: relative;
+
+}
+.adventure_card_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.adventure_content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.adventure_content button{
+    max-width: 250px;
+}
+.adventure_card {
+    width: 360px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+
+.adventure_card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.adventure_card_head {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.adventure_content_header {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.adventure_content_header span {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.adventure_content_Sub_header {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    z-index: 5;
+}
+.adventure_content_list{
+    list-style-position: inside;
+    font-size: 16px;
+}
+.ellipse_adventure_circle_big{
+    top: 0;
+    right: 200px;
+}
+.ellipse_adventure{
+    top: 150px;
+    left: 45%;
+}
