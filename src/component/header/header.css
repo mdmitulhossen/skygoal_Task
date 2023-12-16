@@ -1,0 +1,57 @@
+/* =====header======= */
+/* =====Nav======= */
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    gap: 20px;
+  }
+
+.logo{
+    width: 200px;
+}
+.menuItem{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    color: #262626;
+    font-size: 16px;
+    font-weight: 500;
+    flex-grow: 1;
+  }
+  .menuItem li a{
+    text-decoration: none;
+    color: #262626;
+    transition: all 0.2s ease-in-out;
+  }
+    .menuItem li a:hover{
+        color: #F27A44;
+    }
+.navbtn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbtn p{
+    cursor: pointer;
+    color: #7D7D7D;
+}
+.mobileMenu{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    padding-top: 20px;
+}
+.mobileMenu button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    background: var(--btn);
+    color: white;
+    padding: 1px 10px;
+    font-size: 30px;
+    border-radius: 5px;
+}
