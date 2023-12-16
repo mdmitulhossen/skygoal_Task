@@ -1,16 +1,17 @@
 /* =====header======= */
 /* =====Nav======= */
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     padding: 15px 0;
     gap: 20px;
-  }
+}
 
-.logo{
+.logo {
     width: 200px;
 }
-.menuItem{
+
+.menuItem {
     display: flex;
     align-items: center;
     list-style: none;
@@ -19,32 +20,38 @@
     font-size: 16px;
     font-weight: 500;
     flex-grow: 1;
-  }
-  .menuItem li a{
+}
+
+.menuItem li a {
     text-decoration: none;
     color: #262626;
     transition: all 0.2s ease-in-out;
-  }
-    .menuItem li a:hover{
-        color: #F27A44;
-    }
-.navbtn{
+}
+
+.menuItem li a:hover {
+    color: #F27A44;
+}
+
+.navbtn {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.navbtn p{
+
+.navbtn p {
     cursor: pointer;
     color: #7D7D7D;
 }
-.mobileMenu{
+
+.mobileMenu {
     display: none;
     position: absolute;
     top: 0;
     right: 50px;
     padding-top: 20px;
 }
-.mobileMenu button{
+
+.mobileMenu button {
     border: none;
     background: none;
     cursor: pointer;
@@ -54,4 +61,89 @@
     padding: 1px 10px;
     font-size: 30px;
     border-radius: 5px;
+}
+
+/*============= header banner======== */
+.headerSection {
+    background: rgba(248, 241, 211, 0.25);
+    padding: 100px 0;
+}
+.banner_container{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    position: relative;
+}
+.banner_content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex: 1;
+}
+.banner_image_container{
+    flex: 1;
+}
+
+.btn_banner {
+    padding: 10px 30px !important;
+    max-width: 160px;
+}
+
+.banner_subHeading {
+    color: #1F2027;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.banner_heading {
+    color: #1F2027;
+    font-family: Poppins, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.banner_heading span {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+.banner_descrip {
+    color: #505C59;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.banner_image{
+    width: 100%;
+}
+.ellipse{
+    position: absolute;
+}
+.ellipse_big{
+    top: 0;
+    left: 25px;
+}
+.ellipse_small{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ellipse_green{
+    top: 30px;
+    right: 40%;
+}
+.ellipse_circle_green{
+    bottom: -50px;
+    right: 100px;
+}
+.ellipse_circle_small{
+    bottom: 100px;
+    left: 40%;
+}
+.ellipse_yellow{
+    bottom: 0;
+    left: 25%;
 }

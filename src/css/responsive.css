@@ -1,5 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
     /* ======nav======= */
     .container {
         padding: 0 20px;
@@ -45,22 +46,70 @@
     .navbtn button {
         padding: 10px 20px;
     }
-    .mobileMenu{
+
+    .mobileMenu {
         display: block;
     }
-    .mobileOpen{
+
+    .mobileOpen {
         display: flex !important;
     }
-    .mobileClose{
+
+    .mobileClose {
         display: none !important;
+    }
+
+    /* ========banner==== */
+    .banner_container {
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+
+    .headerSection {
+        padding: 50px 0;
+    }
+
+    .banner_container {
+        gap: 40px;
+    }
+
+    .banner_content {
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .banner_heading {
+        font-size: 50px;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    .banner_image_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner_image {
+        width: 80%;
+    }
+
+    .banner_subHeading {
+        text-align: center;
+    }
+
+    .banner_descrip {
+        text-align: center;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones,landscape tablets 600px and up 1000px) */
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
+
     /* =========nav======== */
     .container {
-        padding: 0 20px;
+        padding: 0 40px;
     }
 
     .navbar {
@@ -69,6 +118,7 @@
         padding-top: 50px;
         display: none;
     }
+
     .logo {
         width: 100%;
         margin-bottom: 20px;
@@ -101,25 +151,74 @@
     .navbtn button {
         padding: 10px 20px;
     }
-    .mobileMenu{
+
+    .mobileMenu {
         display: block;
     }
-    .mobileOpen{
+
+    .mobileOpen {
         display: flex !important;
     }
-    .mobileClose{
+
+    .mobileClose {
         display: none !important;
     }
+
+    /* ========banner==== */
+    .banner_container {
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+
+    .headerSection {
+        padding: 50px 0;
+    }
+
+    .banner_container {
+        gap: 40px;
+    }
+
+    .banner_content {
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .banner_heading {
+        font-size: 60px;
+        line-height: 80px;
+        text-align: center;
+    }
+
+    .banner_image_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner_image {
+        width: 70%;
+    }
+
+    .banner_subHeading {
+        text-align: center;
+    }
+
+    .banner_descrip {
+        text-align: center;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
-/* Large devices (laptops/desktops, 1024px and up) */
+/* Large devices (laptops/desktops, 1024px and up 1200px) */
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
     /* =========nav========== */
     .container {
-        padding: 0 20px;
+        padding: 0 60px;
     }
 
     .navbar {
@@ -150,7 +249,7 @@
 
     .navbtn {
         width: 100%;
-        justify-content: center;
+        justify-content: end;
     }
 
     .navbtn p {
@@ -159,6 +258,24 @@
 
     .navbtn button {
         padding: 10px 20px;
+    }
+
+    /* =====banner===== */
+    .headerSection {
+        padding: 50px 0;
+    }
+
+    .banner_container {
+        gap: 40px;
+    }
+
+    .banner_content {
+        gap: 20px;
+    }
+
+    .banner_heading {
+        font-size: 60px;
+        line-height: 80px;
     }
 }
 
