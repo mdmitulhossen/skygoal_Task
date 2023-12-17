@@ -149,7 +149,13 @@
     .bookNow_image_container {
         display: none;
     }
-    .bookNow_container{
+
+    .bookNow_container {
+        padding: 50px 0px;
+    }
+
+    /* ======testimonial======= */
+    .testimonial_container {
         padding: 50px 0px;
     }
 
@@ -293,6 +299,8 @@
     .bookNow_image_container {
         display: none;
     }
+
+
 
 }
 
