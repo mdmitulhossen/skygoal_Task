@@ -1,0 +1,25 @@
+.bookNow_container{
+    margin-top: 50px;
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    position: relative;
+}
+.bookNow_image_container{
+    width: 100%;
+    flex: 1;
+    
+}
+.bookNow_form_container{
+    width: 100%;
+    flex: 1;
+}
+.bookNow_image_container img{
+    width: 100%;
+}
+.ellipse_bookNow_circle_yellow{
+    top: 100px;
+    left: 40%;
+}

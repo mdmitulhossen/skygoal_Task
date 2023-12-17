@@ -140,9 +140,19 @@
     .discount_container {
         padding: 10px 0px 50px;
     }
+
     .discount_container {
         flex-direction: column-reverse;
     }
+
+    /*======== bookNow======= */
+    .bookNow_image_container {
+        display: none;
+    }
+    .bookNow_container{
+        padding: 50px 0px;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones,landscape tablets 600px and up 1023px) */
@@ -277,6 +287,11 @@
 
     .discount_content button {
         margin: 0 auto;
+    }
+
+    /*======== bookNow======= */
+    .bookNow_image_container {
+        display: none;
     }
 
 }
