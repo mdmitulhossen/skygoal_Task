@@ -30,7 +30,6 @@ function getWindowDimensions() {
 const Carosel = ({ cards }) => {
     const {width} = useWindowDimensions()
     // const [width, setWidth] = useState(window.innerWidth);
-    console.log(width)
     const [currentPage, setCurrentPage] = useState(0);
     const cardsPerPage = width > 1024 ? 4 : width > 768 ? 3 : width > 600 ? 2 : 1;
     const totalPages = Math.ceil(cards.length / cardsPerPage);

@@ -1,0 +1,48 @@
+.discount_container {
+    margin-top: 60px;
+    padding: 10px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    position: relative;
+}
+
+.discount_img_container {
+    width: 100%;
+    flex: 1;
+}
+
+.discount_content {
+    flex: 1;
+}
+
+.discount_img_container img {
+    width: 100%;
+    border-radius: 20px;
+    max-height: 600px;
+    object-fit: fill;
+}
+
+.ellipse_discount {
+    top: 100px;
+    left: 50px;
+}
+
+.ellipse_discount_circle_yellow {
+    top: 50px;
+    left: 30%;
+}
+.ellipse_discount_small {
+    top: 200px;
+    left: 50%;
+}
+.ellipse_discount_small_circle {
+    bottom: 150px;
+    left: 40%;
+}
+.ellipse_discount_green_circle{
+    bottom: 20px;
+    right: 50px;
+    z-index: -1;
+}

@@ -108,29 +108,45 @@
         flex-direction: column-reverse;
         padding: 50px 0;
     }
-    .adventure_content_header,.adventure_content_Sub_header,.adventure_content_list{
+
+    .adventure_content_header,
+    .adventure_content_Sub_header,
+    .adventure_content_list {
         text-align: center;
     }
+
     .adventure_content button {
         margin: 0 auto;
     }
-    .ellipse_adventure_circle_big{
+
+    .ellipse_adventure_circle_big {
         top: 0;
         right: 50%;
     }
-    .ellipse_adventure{
+
+    .ellipse_adventure {
         top: 50%;
         left: 45%;
         transform: translate(-50%, -50%);
     }
+
+    /*======== Carousel =======*/
     .card-container {
         grid-template-columns: repeat(1, 1fr);
 
     }
+
+    /* =====discount====== */
+    .discount_container {
+        padding: 10px 0px 50px;
+    }
+    .discount_container {
+        flex-direction: column-reverse;
+    }
 }
 
-/* Small devices (portrait tablets and large phones,landscape tablets 600px and up 1000px) */
-@media only screen and (min-width: 600px) and (max-width: 1000px) {
+/* Small devices (portrait tablets and large phones,landscape tablets 600px and up 1023px) */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
 
     /* =========nav======== */
     .container {
@@ -232,9 +248,35 @@
     .banner_descrip {
         text-align: center;
     }
+
+    /*======== Carousel =======*/
     .card-container {
         grid-template-columns: repeat(2, 1fr);
 
+    }
+
+    /* =====discount====== */
+    .discount_container {
+        flex-direction: column-reverse;
+    }
+
+    .discount_img_container img {
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .discount_img_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .discount_content p,
+    .discount_content .adventure_content_list li {
+        text-align: center;
+    }
+
+    .discount_content button {
+        margin: 0 auto;
     }
 
 }
@@ -306,6 +348,8 @@
         font-size: 60px;
         line-height: 80px;
     }
+
+    /*======== Carousel =======*/
     .card-container {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
