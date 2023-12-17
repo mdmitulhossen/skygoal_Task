@@ -29,7 +29,14 @@ const Nav = () => {
                 </div>
             </div>
             <div className="mobileMenu">
-                <button onClick={()=>setMobileMenu(!mobileMenu)}><i className='bx bx-menu'></i></button>
+                <button onClick={()=>setMobileMenu(!mobileMenu)}>
+                    {
+                        mobileMenu?
+                        <i className='bx bx-x'></i>
+                        :
+                        <i className='bx bx-menu'></i>
+                    }
+                    </button>
             </div>
             </>
     );
