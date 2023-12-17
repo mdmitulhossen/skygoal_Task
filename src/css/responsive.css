@@ -123,6 +123,10 @@
         left: 45%;
         transform: translate(-50%, -50%);
     }
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
 
 /* Small devices (portrait tablets and large phones,landscape tablets 600px and up 1000px) */
@@ -228,6 +232,10 @@
     .banner_descrip {
         text-align: center;
     }
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
 
 }
 
@@ -297,6 +305,10 @@
     .banner_heading {
         font-size: 60px;
         line-height: 80px;
+    }
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
     }
 }
 

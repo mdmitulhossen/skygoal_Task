@@ -3,6 +3,7 @@ import Banner from './component/header/Banner'
 import './component/header/header.css'
 import Nav from './component/header/Nav'
 import Adventure from './component/sections/Adventure/Adventure'
+import Destination from './component/sections/destination/Destination'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       </div>
       <div className='container'>
         <Adventure/>
+        <Destination/>
       </div>
     </>
   )
